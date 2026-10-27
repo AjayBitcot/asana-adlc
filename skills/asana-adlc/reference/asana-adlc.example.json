@@ -1,0 +1,47 @@
+{
+  "asana": {
+    "workspace_gid": "REPLACE_WITH_WORKSPACE_GID",
+    "project_gid": "REPLACE_WITH_PROJECT_GID",
+    "eligibility": {
+      "section_gid": "REPLACE_WITH_READY_FOR_DEV_SECTION_GID",
+      "assignee": "you@example.com",
+      "tag": null,
+      "custom_field": null
+    },
+    "acceptance_criteria": {
+      "source": "notes_heading",
+      "heading": "Acceptance Criteria"
+    },
+    "priority_field_gid": null,
+    "status": {
+      "in_progress": { "type": "section", "section_gid": "REPLACE_WITH_IN_PROGRESS_SECTION_GID" },
+      "in_review": { "type": "section", "section_gid": "REPLACE_WITH_IN_REVIEW_SECTION_GID" },
+      "blocked": null,
+      "approved": null,
+      "merged": null
+    }
+  },
+  "git": {
+    "provider": "github",
+    "remote": "origin",
+    "base_branch": "main",
+    "branch_prefix": "feature/",
+    "protected_branches": ["main", "master", "develop", "production", "staging", "release/*"],
+    "reviewers": []
+  },
+  "checks": null,
+  "isolation": {
+    "tmp_root": null,
+    "env": {},
+    "timeout_seconds": 1800
+  },
+  "unattended": {
+    "enabled": false,
+    "allowed_gates": [],
+    "allowed_commands": []
+  },
+  "limits": {
+    "lock_stale_minutes": 120,
+    "max_fix_iterations": 3
+  }
+}

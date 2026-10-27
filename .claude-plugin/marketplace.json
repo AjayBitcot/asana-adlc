@@ -1,0 +1,21 @@
+{
+  "name": "asana-adlc-marketplace",
+  "description": "Marketplace hosting the Asana ADLC Claude Code plugin",
+  "owner": {
+    "name": "Ajay Rajput",
+    "email": "ajayrajput@bitcot.com"
+  },
+  "plugins": [
+    {
+      "name": "asana-adlc",
+      "description": "Asana task \u2192 reviewed-ready Pull Request on any repository, with confirmations, Soft Run, and resumable checkpoints.",
+      "version": "0.3.1",
+      "source": "./",
+      "author": {
+        "name": "Ajay Rajput",
+        "email": "ajayrajput@bitcot.com"
+      },
+      "category": "development"
+    }
+  ]
+}

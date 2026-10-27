@@ -1,0 +1,19 @@
+{
+  "name": "asana-adlc",
+  "description": "Take an Asana task from requirements to a reviewed-ready Pull Request on any repository and stack: repository-detected checks, isolated worktrees, Soft Run trials with verified cleanup, confirmation before every major step, and pause/resume from checkpoints.",
+  "version": "0.3.1",
+  "author": {
+    "name": "Ajay Rajput",
+    "email": "ajayrajput@bitcot.com"
+  },
+  "keywords": [
+    "asana",
+    "adlc",
+    "pull-request",
+    "automation",
+    "github",
+    "gitlab",
+    "soft-run",
+    "any-stack"
+  ]
+}
